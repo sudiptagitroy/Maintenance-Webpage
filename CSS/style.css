@@ -1,0 +1,481 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    overflow-x: hidden;
+    font-family: sans-serif;
+}
+.container{
+    margin: 0 auto;
+    padding: 0 40px;
+}
+.sec-1{
+    padding: 20px 0;
+    background-color: black;
+}
+.box1{
+    display: flex;
+    justify-content: space-between;
+}
+.nav-icon{
+    font-size: 22px;
+    color:rgb(243, 199, 8);
+}
+.icon-text{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+/* SECTION 2 */
+.sec-2{
+    padding: 20px 0;
+    background-color: #cfe1f5;
+    /* height: 745px; */
+}
+.nav-menu{
+    display: flex;
+    justify-content: space-between;
+}
+.nav-menu-left a{
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 600;
+    color: #0355cc;
+}
+.nav-menu-right-list ul{
+    padding: 0;
+    margin: 0;
+}
+.nav-menu-right-list li{
+    display: inline-block;
+    font-size: 20px;
+    padding-right: 50px;
+}
+.nav-menu-right-list li:nth-last-child(1){
+    padding-right: 0;
+}
+.nav-menu-right-list a{
+    text-decoration: none;
+    color: black;
+}
+.nav-menu-right-list a:hover{
+    color: #0355cc;
+}
+.hero-sec{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 40px;
+}
+.hero-left{
+    padding: 60px 0 0 0;
+    width: 35%;
+}
+.hero-left h1{
+    font-size: 55px;
+    color: #0355cc;
+    padding-bottom: 30px;
+}
+.hero-left p{
+    font-size: 20px;
+    padding-bottom: 50px;
+}
+.hero-left a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    background-color: rgb(255, 153, 0);
+    padding: 15px 45px;
+    border-radius: 8px;
+}
+.hero-left a:hover{
+    background-color: transparent;
+    color: rgb(255, 153, 0);
+    border: 2px solid rgb(255, 153, 0);
+}
+/* SEC-CARD SECTION */
+.card-container{
+    padding: 0 100px;
+}
+.card-box{
+    display: flex;
+    justify-content: space-evenly;
+}
+.card1{
+    width: 420px;
+    height: 300px;
+    transform: translateY(-50%);
+    box-shadow: 0 0 10px black;
+    background-color: white;
+    text-align: center;
+}
+.card-icon{
+    font-size: 20px;
+    padding-top: 120px;
+    color: rgb(98, 64, 123);
+}
+.card-head{
+    padding-top: 50px;
+    color: rgb(98, 64, 123);
+}
+.card1:hover{
+    background-color: rgb(255, 153, 0);
+}
+.card2{
+    width: 420px;
+    height: 300px;
+    transform: translateY(-50%);
+    box-shadow: 0 0 10px black;
+    background-color: rgb(255, 153, 0);
+    text-align: center;
+}
+.card2 .card-icon{
+    color: white;
+}
+.card2 .card-head{
+    color: white;
+}
+.card2:hover{
+    background-color: rgb(255, 153, 0);
+}
+.card3{
+    width: 420px;
+    height: 300px;
+    transform: translateY(-50%);
+    box-shadow: 0 0 10px black;
+    background-color: white;
+    text-align: center;
+}
+.card3:hover{
+    background-color: rgb(255, 153, 0);
+}
+/* SECTION 3 */
+.sec-3{
+    padding: 0 0 100px 0;
+    background-color: white;
+}
+.box-3{
+    display: flex;
+    justify-content: space-evenly;
+}
+.sec-3-left{
+    width: 35%;
+    padding-top: 160px;
+}
+.sec-3-left h1{
+    font-size: 40px;
+    padding-bottom: 20px;
+}
+.sec-3-left p{
+    font-size: 20px;
+    padding-bottom: 45px;
+}
+.sec-3-left a{
+    text-decoration: none;
+    color: white;
+    font-size: 23px;
+    background-color: blue;
+    padding: 15px 50px;
+}
+.sec-3-left a:hover{
+    color: blue;
+    background-color: transparent;
+    border: 2px solid blue;
+}
+/* SECTION 4 */
+.sec-4{
+    padding: 100px 0;
+    background-color: #cfe1f5;
+}
+.box-4{
+    display: flex;
+    justify-content: space-evenly;
+}
+.sec-4-text{
+    width: 45%;
+    padding-top: 180px;
+}
+.sec-4-text h1{
+    font-size: 40px;
+    color: #0355cc;
+    padding-bottom: 40px;
+}
+.sec-4-text p{
+    font-size: 20px;
+    padding-bottom: 60px;
+}
+.sec-4-text a{
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+    background-color: rgb(255, 153, 0);
+    padding: 15px 50px;
+}
+.sec-4-text a:hover{
+    background-color: transparent;
+    color: rgb(255, 153, 0);
+    border: 2px solid rgb(255, 153, 0);
+}
+/* SECTION 5 */
+.sec-5{
+    padding-top: 150px;
+    padding-bottom: 100px;
+    background-color: white;
+}
+.sec-5-heading{
+    text-align: center;
+    margin-bottom: 80px;
+}
+.sec-5-heading h1{
+    font-size: 40px;
+}
+.sec-5-cardbox{
+    display: flex;
+    justify-content: space-evenly;
+}
+.sec5-img{
+    width: 65px;
+    height: 65px;
+    padding-bottom: 20px;
+}
+.card-one{
+    text-align: center;
+    width: 25%;
+    padding: 30px 35px ;
+    box-shadow: 0 0 8px black;
+}
+.card-one h2{
+    padding-bottom: 20px;
+}
+.card-one p{
+    font-size: 20px;
+}
+.card-one:hover{
+    color: white;
+    background-color: rgb(255, 153, 0);
+}
+.card-one img{
+    filter: brightness(0) invert(0);
+    /* transition: all 0.8s ease-in-out; */
+}
+.card-one:hover img{
+    filter: brightness(1) invert(1);
+}
+.sec-5-readbutton{
+    margin: 80px 0;
+    text-align: center;
+}
+.sec-5-readbutton a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    background-color: blue;
+    padding: 15px 50px;
+}
+.sec-5-readbutton a:hover{
+    color: blue;
+    background-color: transparent;
+    border: 2px solid blue;
+}
+.sec-5-clientsayhead{
+    margin-top: 150px;
+    margin-bottom: 100px;
+    text-align: center;
+}
+.sec-5-clientsayhead h1{
+    font-size: 40px;
+}
+.clientsay-box{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.client-one-box{
+    display: flex;
+    /* justify-content:space-between; */
+    align-items: center;
+    margin-bottom: 20px;
+}
+.client-one{
+    /* border: 2px solid black; */
+    width: 40%;
+    padding: 40px 30px;
+    position: relative;
+    box-shadow: 0 0 10px grey;
+}
+.quote-icon{
+    position: absolute;
+    right: 35px;
+    top: 90px;
+    font-size: 20px;
+}
+.checked{
+    color: orange;
+}
+.client-one-img{
+    margin-right: 20px;
+}
+.client-one-img img{
+    border-radius: 50%;
+}
+.client-one-text h3{
+    font-size: 20px;
+    padding-bottom: 6px;
+}
+.sec-5-arrow{
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sec-5-arrow-left{
+    background-color: #0355cc;
+    height: 60px;
+    width: 60px;
+    margin-right: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sec-5-arrow-left .l1{
+    font-size: 20px;
+    color: white;
+}
+.sec-5-form-head{
+    margin-top: 120px;
+    margin-bottom: 60px;
+    margin-left: 60px;
+    text-align: left;
+}
+.sec-5-form-head h1{
+    font-size: 40px;
+}
+.sec-5-form-box{
+    display: flex;
+    justify-content: space-around;
+}
+
+.sec-5-form-ip{
+    width: 600px;
+    height: 60px;
+    /* box-shadow: 0 0 5px 0 rgba(171, 166, 166, 0.2); */
+    box-shadow: 0 0 10px  grey;
+    padding-left: 20px;
+    font-size: 20px;
+}
+.sec-5-form-ta{
+    padding-left: 20px;
+    padding-top: 20px;
+    font-size: 20px;
+    box-shadow: 0 0 10px  grey;
+    resize: none;
+}
+.sec-5-sendbutton{
+    margin: 80px 0;
+    margin-left: 65px;
+    text-align: left;
+}
+.sec-5-sendbutton a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    background-color: blue;
+    padding: 15px 50px;
+}
+.sec-5-sendbutton a:hover{
+    color: blue;
+    background-color: transparent;
+    border: 2px solid blue;
+}
+/* sec 6 */
+.sec-6{
+    padding: 120px 0 20px 0;
+    background-color: #0A0F43;
+}
+.sec-6-heading{
+    text-align: center;
+    margin-bottom: 80px;
+}
+.sec-6-heading h1{
+    color: white;
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+.sec-6-heading-links-icon{
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    margin-left: 650px;
+    width: 220px;
+    height: 70px;
+}
+.sec-6-heading-links h1{
+    margin-top: 50px;
+    margin-left: 660px;
+    color: white;
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+.sec-6-heading-links .links{
+    font-size: 30px;
+    padding-right: 15px;
+    color:#0355cc;
+}
+.sec-6-heading-links .links:hover{
+    color: orange;
+}
+.sec-6-icon{
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+}
+.icon-line{
+    border: none;
+    height: 2px;
+    width: 50%;
+    background-color: white;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 0;
+}
+.sec-6-one{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0355cc;
+    z-index: 1;
+    /* transform: translateY(-50px); */
+    
+}
+.sec-6-icon-itm{
+    font-size: 20px;
+    color: white;
+}
+.footer{
+    margin-top: 80px;
+    padding-left: 160px;
+    /* text-align: center; */
+}
+.foot-div{
+    height: 1px;
+    width: 88%;
+    background-color: white;
+}
+.foot-head{
+    margin-top: 20px;
+    text-align: center;
+}
+.foot-head p{
+    color: white;
+    font-size: 18px;
+}
